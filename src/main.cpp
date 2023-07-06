@@ -47,7 +47,7 @@ dht.setup(PIN_DHT, DHTesp::DHT11);
 Wire.begin(PIN_SDA, PIN_SCL);
 lightMeter.begin(BH1750::CONTINUOUS_HIGH_RES_MODE, 0x23, &Wire);
 
-//call function untuk konek ke wifi dan mqtt
+//call function untuk konek ke wifi
 WifiConnect();
 
 //pembuatan tasks serta memorinya dan lokasi prosesornya
