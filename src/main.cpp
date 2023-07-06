@@ -18,8 +18,8 @@ const char* ssid = "metallica";
 const char* password = "jlmerak6";
 
 //dekalarasi thingsboard server dan access token
-const char* thingsboardServer = "thingsboard.cloud";
-const char* thingsboardAccessToken = "QtmuHTl2h77y3mnD270M";
+const char* thingsboardServer = "demo.thingsboard.io";
+const char* thingsboardAccessToken = "jvDu7eVSW4B2pAgRxfrH";
 
 
 //deklarasi variabel
